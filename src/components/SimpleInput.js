@@ -1,4 +1,3 @@
-
 import useInput from "./hooks/use-input";
 
 const SimpleInput = (props) => {
@@ -40,7 +39,7 @@ const SimpleInput = (props) => {
   const nameInputClasses = nameInputHasError
     ? "form-control invalid"
     : "form-control";
-    const emailInputClasses = emailInputHasError
+  const emailInputClasses = emailInputHasError
     ? "form-control invalid"
     : "form-control";
 
@@ -60,7 +59,7 @@ const SimpleInput = (props) => {
         )}
       </div>
       <div className={emailInputClasses}>
-        <label htmlFor="name">Your Email</label>
+        <label htmlFor="email">Your Email</label>
         <input
           type="text"
           id="email"
